@@ -1,0 +1,26 @@
+.grid {
+  display: flex;                       
+  flex-wrap: wrap;                     
+  justify-content: space-around;
+  margin: 0px 100px 100px;
+}
+.cell {
+  flex: 0 0 32%;                       
+  height: 200px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+img {
+  cursor: pointer;
+}
+
+.head-container {
+  text-align: center;
+}
+
+.select-item {
+  font-weight: bold;
+  color: red;
+}
+
